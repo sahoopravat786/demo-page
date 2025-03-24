@@ -172,7 +172,7 @@ body{
   /*---------------------------About---------------------------*/
 
   .about-area{
-    padding-top: 130px;
+    padding-top: 100px;
     background-color: #202020;
   }
 
@@ -359,6 +359,8 @@ body{
 /*---------------------------Projects---------------------------*/
 .project-content{
   padding: 90px 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   /* color:#fff;  */
 }
 .project-title{
@@ -391,8 +393,9 @@ body{
     text-align: center;
     flex-basis: 32%;
     transition: .3s;
-    margin-bottom: 10px;
-}
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    }
 .project i{
   background-color: #fed700;
   width: 60px;
@@ -416,7 +419,8 @@ body{
 
 .project-container{
   padding: 50px 0;
-  /* margin-top: 10px; */ 
+  /* margin-top: 10px; */
+  
 }
 
 
@@ -467,6 +471,10 @@ body{
 
   .profile-text{
     width: 350px;
+    /* padding: 20px 0px; */
+  }
+  .profile-text h1{
+    font-size: 1.5rem;
   }
   .FirstElement .profile-text p{
     text-align: justify;
@@ -475,22 +483,25 @@ body{
     flex-direction: column;
     flex-basis: 100%;
     margin-bottom: 30px;
+    /* margin-top: 50px; */
   }
   .about-skills{
     width: 100%;
     margin-top: 30px;
   }
   .education-container .row {
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
     margin-bottom: 50px;
   }
 
-  .education-content .row .education,
-  .education-content .row .internship {
+  .education-container .row .education,
+  .education-container .row .internship {
     flex-basis: 100%;
     max-width: 100%;
     margin-top: 30px;
+    border-spacing: 100%;
+    margin-right: 5px;
   }
   .project{
     flex-basis: 100%;
@@ -498,6 +509,8 @@ body{
   }
 
 }
+
+
 
 
 
