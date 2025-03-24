@@ -391,6 +391,7 @@ body{
     text-align: center;
     flex-basis: 32%;
     transition: .3s;
+    margin-bottom: 10px;
 }
 .project i{
   background-color: #fed700;
